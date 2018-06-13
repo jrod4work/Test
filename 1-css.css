@@ -1,0 +1,21 @@
+body {
+    background-image: url('https://cdn.teslarati.com/wp-content/uploads/2018/04/artificial_intelligence.jpg');
+}
+
+nav {
+    text-align:center;
+    background: #07070c;
+    box-shadow: 0 0 17px 0px black;
+    }
+        nav li {
+        display:inline;
+         }
+         nav a {
+        color:white;
+        font-size:44px;
+        text-decoration:none; 
+        padding:0 30px; /* variable width */
+        }
+
+
+
