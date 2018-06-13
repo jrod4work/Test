@@ -4,18 +4,69 @@ body {
 
 nav {
     text-align:center;
-    background: #07070c;
+    background: #07070cb0;
     box-shadow: 0 0 17px 0px black;
     }
-        nav li {
-        display:inline;
-         }
-         nav a {
-        color:white;
-        font-size:44px;
-        text-decoration:none; 
-        padding:0 30px; /* variable width */
-        }
+nav li {
+    display:inline;
+    }
+nav a {
+    color:white;
+    font-size:44px;
+    text-decoration:none; 
+    padding:0 30px; /* variable width */
+}
 
+h1 {
+    text-align: center;
+    color:white;
+    font-size: 32px;
+    background-color: #0f326f99;
+    border: 2px solid #323e64;
+    padding: 0px 5px;
+    margin: 4px;
+    font-weight: 100
+}
+h2 {
+    text-align: center;
+    color:white;
+    font-size: 22px;
+    background-color: #0f326f99;
+    border: 2px solid #323e64;
+    padding: 0px 5px;
+    margin: 4px;
+    font-weight: 100
+}
+p {
+    color:white;
+    font-size: 18px;
+    background-color: #0c1b35e8;
+    border: 2px solid #323e64;
+    padding: 0px 5px;
+    margin: 4px;
+    font-weight: 100
+}
 
+* {
+    box-sizing: border-box;
+}
 
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Padding:If two values are specified, 
+the first value is applied to 
+the top and bottom, and the 
+second value is applied to 
+the right and left side.*/
