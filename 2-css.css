@@ -20,12 +20,41 @@ h1 {
     color:white;
     font-size: 32px;
     background-color: #0f326f99;
-    width: 1290px;
+    width: auto;
+    border: 2px solid #323e64;
+    padding: 0px 5px;
+    margin: 4px;
+    font-weight: 100;
+
+}
+
+p {
+    color:white;
+    font-size: 21px;
+    background-color: #0c1b35e8;
     border: 2px solid #323e64;
     padding: 0px 5px;
     margin: 4px;
     font-weight: 100
-
 }
 
 
+#main {
+    width: 80%;
+    max-width: 950px;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color:#ffffff8c;
+    border-radius: 10px;
+    }
+    
+    #header {
+    margin-top: 0;
+    border: 2px solid black;
+    padding: 5px;
+    height: 250px;
+    background: beige;
+    background-image: url("code.jpg");
+    color: white;
+    }
