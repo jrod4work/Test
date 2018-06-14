@@ -22,21 +22,34 @@
 
     <h1> A Tale of Three Cities</h1>
 
+    <form id="form1">
+        <select id="sel" onChange="selMeasure()">
+            <option value="1">Population</option>
+            <option value="2">Housing Units</option>
+            <option value="3">Households</option>
+        </select>
+    </form>
+
+
     <div id="bar0" class="bars">
-        <p class="number">842</p>
+        <p id="bartext0" class="number"></p>
     </div>
-    <div id="name0">Austin</div>
+    <div id="name0"></div>
+
 
     <div id="bar1" class="bars">
-        <p class="number">777</p>
+        <p id="bartext1" class="number"></p>
     </div>
-    <div id="name1">Fort Worth</div>
+    <div id="name1"></div>
+
 
     <div id="bar2" class="bars">
-        <p class="number">236</p>
+        <p id="bartext2" class="number"></p>
     </div>
-    <div id="name2">Lubbock</div>
-<script src="3-Java.js"></script>
+    <div id="name2"></div>
+
+
+    <script src="3-Java.js"></script>
 </body>
 
 </html>
