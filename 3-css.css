@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    }
+    
+    .bars {
+    background-color: blue;
+    height: 25px;
+    margin: 10px 0 0 0;
+    }	
+    
+    #bar0 {
+    width: 842px;
+    }
+    
+    #bar1 {
+    width: 777px;
+    }
+    
+    #bar2 {
+    width: 236px;
+    }
+    .number {
+        color: white;
+        text-align: right;
+        padding: 3px;
+        font-size: 12px; 
+        }
+        
