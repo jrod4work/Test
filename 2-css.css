@@ -4,7 +4,7 @@ body {
 
 nav {
     text-align:center;
-    background: #07070c;
+    background:#07070ca6;
     box-shadow: 0 0 17px 0px black;
 }
 nav li {
@@ -17,15 +17,14 @@ nav a {
     padding:0 30px; /* variable width */
 }
 h1 {
+    text-align: center;
     color:white;
     font-size: 32px;
     background-color: #0f326f99;
-    width: auto;
     border: 2px solid #323e64;
     padding: 0px 5px;
     margin: 4px;
-    font-weight: 100;
-
+    font-weight: 100
 }
 
 p {
@@ -50,11 +49,52 @@ p {
     }
     
     #header {
+    text-align: center;
     margin-top: 0;
-    border: 2px solid black;
     padding: 5px;
     height: 250px;
     background: beige;
-    background-image: url("code.jpg");
+    background-image: url("fantasy\ book\ cover.png");
     color: white;
     }
+  
+    h3 {
+        text-align: center;
+        margin-top: 0;
+        padding: 5px;
+        height: 32px;
+        color: #f9f9f9;
+        background: #55997d94;
+    }
+    h2 {
+        text-align: left;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding: 4px;
+        height: 28px;
+        color: #f9f9f9;
+        background: #55997d94;
+        font-weight: 100;
+        font-size: 25px;
+    }
+
+    label {
+        display: block;
+        background: #17474ac9;
+        color: white;
+        font-size: 18px;
+        }
+        
+        input {
+        width: 30px;
+        margin-left: 20px;
+        }
+        
+        
+        button {
+            width: 137px;
+            margin-top: 20px;
+            font-size: large;
+        }
+        
+    
