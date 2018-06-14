@@ -1,12 +1,55 @@
 body {
+    background-image: url('https://cdn.teslarati.com/wp-content/uploads/2018/04/artificial_intelligence.jpg');
     font-family: Helvetica;
     font-size: 16px;
-    }
-    
+}
+
+nav {
+    text-align:center;
+    background:#07070ca6;
+    box-shadow: 0 0 17px 0px black;
+}
+nav li {
+    display:inline;
+}
+nav a {
+    color:white;
+    font-size:44px;
+    text-decoration:none; 
+    padding:0 30px; /* variable width */
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    font-size: 32px;
+    background-color: #0f326f99;
+    border: 2px solid #323e64;
+    padding: 0px 5px;
+    margin: 4px;
+    font-weight: 100
+}
+strong {
+    font-size:20px;
+}
+#sel {
+    display: block;
+    color: white;
+    background: #3b5f53bd;
+    width: 151px;
+    font-size: 20px;
+    text-align:center;
+}
+
+.form22 {
+    display:block;
+    text-align: center;
+}
     .bars {
     background-color: blue;
     height: 25px;
     margin: 10px 0 0 0;
+    transition:width 1s ease-in;
     }	
     
     #bar0 {
@@ -26,4 +69,30 @@ body {
         padding: 3px;
         font-size: 12px; 
         }
-        
+    #main
+        {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        overflow: auto;
+        color:white;
+        font-size: 21px;
+        background-color: #0c1b35e8;
+        border: 2px solid #323e64;
+        padding: 0px 5px;
+        margin: 4px;
+        font-weight: 100
+        }
+    
+        .tooltip {
+            display:none;
+            background: beige;
+            font-size:14px;
+            height:25px;
+            border-radius: 5px;
+            padding-top: 2px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 0px;
+            color: black;
+            border: 1px solid black;
+          }
