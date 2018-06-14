@@ -37,6 +37,18 @@ p {
     font-weight: 100
 }
 
+}
+#grade2 {
+    color:white;
+    font-size: 21px;
+    background-color: #0c1b35e8;
+    border: 2px solid #323e64;
+    padding: 0px 5px;
+    margin: 4px;
+    font-weight: 100s;
+    text-align: center;
+}
+
 
 #main {
     width: 80%;
