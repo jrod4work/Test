@@ -1,7 +1,8 @@
 var cities = [
-    {name: "Austin", Population: 842, Units: 354, Households: 322, tip: "live music capital"},
-    {name: "Fort Worth", Population: 777, Units: 291, Households: 257, tip: "near Dallas"},
-    {name: "Lubbock", Population: 236, Units: 95, Households: 86, tip: "TX Tech"}
+    {name: "Austin", Population: 842, Units: 354, Households: 322, income:660, tip: "live music capital"},
+    {name: "Fort Worth", Population: 777, Units: 291, Households: 257, income:500, tip: "near Dallas"},
+    {name: "Lubbock", Population: 236, Units: 95, Households: 86, income:200, tip: "TX Tech"},
+    {name: "Madrid", Population: 900, Units: 500, Households: 600, income:800, }
     ];
     
     var measures = Object.keys(cities[0]);
@@ -17,7 +18,7 @@ var cities = [
         //city and tip do not need to change for each measure. 
     
         // this area inserts the Category as a heading 
-        document.getElementById("cat").innerHTML = "<strong>" + measures[x] + "</strong>";
+        //document.getElementById("cat").innerHTML = "<strong>" + measures[x] + "</strong>";
     };
     
     writeData(1); // this is where we call the function the first time. 

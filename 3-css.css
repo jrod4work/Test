@@ -33,12 +33,11 @@ strong {
     font-size:20px;
 }
 #sel {
-    display: block;
     color: white;
-    background: #3b5f53bd;
-    width: 151px;
-    font-size: 20px;
-    text-align:center;
+    background: #1a5765a1;
+    width: 193px;
+    font-size: 26px;
+    margin-left: 597px;
 }
 
 .form22 {

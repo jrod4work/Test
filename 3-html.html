@@ -20,18 +20,24 @@
         </ul>
     </nav>
 
-    <h1> A Tale of Three Cities</h1>
+    <h1>  City Statistics</h1>
 <div id="form22">
     <form id="form1">
         <select id="sel" onChange="selMeasure()">
             <option value="1">Population</option>
             <option value="2">Housing Units</option>
             <option value="3">Households</option>
+            <option value="4">Income</option>
         </select>
     </form>
 </div>
     <div id='main'>
         <div id="cat"></div>
+
+        <div id="bar3" class="bars">
+                <p id="bartext3" class="number"></p>
+            </div>
+            <div id="name3"></div>
 
         <div id="bar0" class="bars">
             <p id="bartext0" class="number"></p>
@@ -49,6 +55,8 @@
             <p id="bartext2" class="number"></p>
         </div>
         <div id="name2"></div>
+
+        
     </div>
 
     <script src="3-Java.js"></script>
