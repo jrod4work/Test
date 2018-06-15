@@ -23,9 +23,9 @@
 
 
         //JSON array of objects that hold data for chart
-        things = [{ name: "work", val: work, color: "blue" },
-        { name: "eat", val: eat, color: "orange" },
-        { name: "sleep", val: sleep, color: "brown" }
+        things = [{ name: "work", val: work, color: "#116b68fa" },
+        { name: "eat", val: eat, color: "#64da57" },
+        { name: "sleep", val: sleep, color: "#130e2b" }
         ];
 
 

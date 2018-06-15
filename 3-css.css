@@ -13,7 +13,7 @@ nav li {
     display:inline;
 }
 nav a {
-    color:white;
+    color:#aec6d2;
     font-size:44px;
     text-decoration:none; 
     padding:0 30px; /* variable width */
@@ -45,7 +45,7 @@ strong {
     text-align: center;
 }
     .bars {
-    background-color: blue;
+    background-color: #00ffe387;
     height: 25px;
     margin: 10px 0 0 0;
     transition:width 1s ease-in;

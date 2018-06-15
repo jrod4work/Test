@@ -28,7 +28,42 @@
     padding: 5px 5px 0 0;
     width: 0;
     }
+    h1 {
+        text-align: center;
+        color:black;
+        font-size: 32px;
+        padding: 0px 5px;
+        margin: 4px;
+        font-weight: 200px;
+    }
+    table {
+        margin-left: 250px;
+    }
+    td {
+        font-size: 26px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+        width: 94px;
+        cursor: pointer;
+        padding: 2px;
+        border: #5c5c69;
+    }
+    p {
+        color: #080808;
+        font-size: 21px;
+        padding: 0px 5px;
+        margin: 4px;
+        width: 400px;
     
+    }
+    input#workvar, input#eatvar, input#sleepvar {
+        font-size: 15px;
+        text-align: center;
+        background-color: #70827dc4;
+    }
+
     .text {
     font-weight: bold;
     
@@ -36,7 +71,7 @@
     
     #main {
     width: 800px;
-    background-color: white;
+    background-color: #60c3e2c9;
     padding: 10px;
     margin: auto;
     border-radius: 10px;
