@@ -52,16 +52,18 @@
     }
     p {
         color: #080808;
-        font-size: 21px;
-        padding: 0px 5px;
-        margin: 4px;
-        width: 400px;
+    font-size: 21px;
+    padding: 0px 5px;
+    margin: 4px;
+    width: 791px;
+    text-align: center;
+    border:1px;
     
     }
     input#workvar, input#eatvar, input#sleepvar {
         font-size: 15px;
         text-align: center;
-        background-color: #70827dc4;
+        background-color: #a8d4c8c4;
     }
 
     .text {
@@ -71,7 +73,7 @@
     
     #main {
     width: 800px;
-    background-color: #60c3e2c9;
+    background-color: #449cb7c9;
     padding: 10px;
     margin: auto;
     border-radius: 10px;

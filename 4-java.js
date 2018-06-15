@@ -2,6 +2,7 @@
  document.getElementById("form1").onsubmit = function () {
 
     //these lines get the value from the form and put it in a variable. the || indicates a 0 if empty.
+    //
     work = parseFloat(document.getElementById('workvar').value) || 0;
     eat = parseFloat(document.getElementById('eatvar').value) || 0;
     sleep = parseFloat(document.getElementById('sleepvar').value) || 0;
