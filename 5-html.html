@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' href= '5-css.css'>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li>
+            <a href="1-html.html">Home</a>
+          </li>
+          <li>
+            <a href='2-html.html'>Quiz</a>
+          </li>
+          <li>
+            <a href='3-html.html'>Graph</a>
+          </li>
+          <li>
+              <a href='4-html.html'>Hours</a>
+          </li>
+          <li>
+            <a href='5-html.html'>Typing-Test</a>
+        </li>
+        </ul>
+      </nav>
+
+      <header class="masthead">
+        <h1>Test Your Typing Speed</h1>
+    </header>
+    <main class="main">
+        <article class="intro">
+            <p>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
+        </article><!-- .intro -->
+        <section class="test-area">
+            <div id="origin-text">
+                <p>Two roads diverged in a yellow wood, And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth.</p>
+            </div><!-- #origin-text -->
+
+            <div class="test-wrapper">
+                <textarea id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing."></textarea>
+            </div><!-- .test-wrapper -->
+
+            <div class="meta">
+                <section id="clock">
+                    <div class="timer">00:00:00</div>
+                </section>
+
+                <button id="reset">Start over</button>
+            </div><!-- .meta -->
+        </section><!-- .test-area -->
+    </main>
+
+    <script src="5-java.js"></script>
+</body>
+</html>
