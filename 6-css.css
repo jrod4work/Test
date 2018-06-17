@@ -37,6 +37,7 @@ nav a {
     stroke: white;
     stroke-width: 9;
     stroke-miterlimit: 10;
+    fill:#0c320db8;
 }
 
 .mid-circle {
